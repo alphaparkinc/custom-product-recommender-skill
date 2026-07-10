@@ -1,4 +1,4 @@
-# custom-product-recommender-skill
+# genpark-custom-product-recommender-skill
 
 > **GenPark AI Agent Skill** -- Shopping quiz recommendation matching builder.
 
