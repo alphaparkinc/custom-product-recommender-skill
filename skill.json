@@ -1,8 +1,8 @@
 {
   "name": "custom-product-recommender-skill",
   "version": "1.0.0",
-  "description": "Parse visitor quiz responses to recommend customized beauty or fitness products from the catalog.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Parse visitor quiz responses to recommend customized beauty or fitness products from the catalog.",
+  "author": "genpark",
   "category": "merchandising",
   "tags": [
     "quiz",
