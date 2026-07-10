@@ -1,0 +1,36 @@
+{
+  "name": "custom-product-recommender-skill",
+  "version": "1.0.0",
+  "description": "Parse visitor quiz responses to recommend customized beauty or fitness products from the catalog.",
+  "author": "alphaparkinc",
+  "category": "merchandising",
+  "tags": [
+    "quiz",
+    "recommendation-engine",
+    "personalization",
+    "merchandising",
+    "e-commerce"
+  ],
+  "inputs": {
+    "quiz_responses": {
+      "type": "object",
+      "description": "Key value quiz inputs: {skin_type: dry, goal: anti-aging}."
+    },
+    "catalog": {
+      "type": "array",
+      "description": "Products to scan: [{id, name, tags}]."
+    }
+  },
+  "outputs": {
+    "recommended_product_id": {
+      "type": "string",
+      "description": "Best matching product ID."
+    },
+    "match_percentage": {
+      "type": "number",
+      "description": "Match confidence index percentage."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
